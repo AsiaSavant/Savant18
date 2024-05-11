@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savant 18 Steakhouse</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles */
+    .navbar-dark .navbar-nav .nav-link {
+      color: teal;
+    }
+    .navbar-dark .navbar-toggler-icon {
+      background-color: teal;
+    }
+    .jumbotron {
+      background-color: fuchsia;
+      color: white;
+    }
+    .footer {
+      background-color: teal;
+      color: white;
+    }
+    .header {
+      background-color: teal;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Savant 18</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Private Dining</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-10">Welcome to Savant 18</h1>
+      <p class="lead">Experience the finest dining in town.</p>
+      <a href="#" class="btn btn-primary btn-lg">Make a Reservation</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="container">
+    <h2>About Us</h2>
+    <p>Savant 18 Steakhouse is a culinary sanctuary nestled in the heart of the city, where the art of grilling meets the sophistication of fine dining. Our passion for prime cuts and culinary mastery is matched only by our dedication to impeccable service and ambiance. With a rich history steeped in tradition, Savant 18 invites guests to savor every moment, indulging in the finest flavors and creating unforgettable dining experiences. Whether it's a celebration or an intimate dinner, our commitment to excellence ensures that every visit to Savant 18 is an extraordinary journey for the senses.</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="container">
+    <h2>Our Menu</h2>
+
+    <!-- Appetizers -->
+    <h3>Appetizers</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="Menu pictures/Oysters.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Oysters</h5>
+            <p class="card-text">Flown in from all over the US, ask your server about todays delivery.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="Menu pictures/Prawn Cocktail.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Prawn Cocktail</h5>
+            <p class="card-text">With cocktail sauce and fresh lemon</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="Menu pictures/Tower of tuna.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tower of Tuna</h5>
+            <p class="card-text">sashimi-grade ahi tuna + hamachi tuna, avocado, tomatoes, red onions, sesame crisps</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entrees -->
+    <h3>Entrees</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/Rib eye.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rib Eye</h5>
+                <p class="card-text">Steakhouse - Style Rib Eye</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/Lobster.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Lobster with Garlic-Parsley Butter</h5>
+                <p class="card-text">Whole lobster butterflied and grilled to perfection</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/Chicken.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Supreme</h5>
+                <p class="card-text">A culinary masterpiece crafted with succulent chicken breast, expertly seasoned and grilled to tender perfection</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Sides -->
+    <h3>Sides</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/Creamed spinach.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Creamed Spinach</h5>
+                <p class="card-text">Made with a smoky bacon-fat roux, plus fennel pollen and chile for spark</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/lobster mac.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Steakhouse Lobster Mac and Cheese</h5>
+                <p class="card-text">Decadent mac and cheese loaded with succulent chunks of lobster and a creamy cheese sauce</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/garlic mashed.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Creamy Double-Garlic Mashed Potatoes</h5>
+                <p class="card-text">Roasted garlic is the secret to these deeply flavored mashed potatoes with a lively crunch from garlic chips</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+ <!-- Desserts -->
+    <h3>Desserts</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/decadentchocolate.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Choclate Layer Cake</h5>
+                <p class="card-text">Deep Choclate Layer Cake</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/cremebrulee.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Creme Brulee</h5>
+                <p class="card-text">Seasonal fruit top</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/tiramisu.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tiramisu</h5>
+                <p class="card-text">Espresso infused Tiramisu</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Beverages -->
+    <h3>Beverages</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/aperol-spritz.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aperol Spritz</h5>
+                <p class="card-text">An Italian classic that pairs the bittersweetness of Aperol (a bright red liquor that tastes like burnt orange and rhubarb) with Prosecco and soda water</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/fresh-berry-delicious.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">If you want a fresh and delicious cocktail, look no further than strawberries.</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="Menu pictures/frozenbluemoscatomargaritas.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Frozen Blue Moscato Margarita</h5>
+                <p class="card-text">Wine lovers will absolutely love these margarita slushies because of the tasty addition of sweet moscato.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="container">
+    <h2>Make a Reservation</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="date">Reservation Date</label>
+        <input type="date" class="form-control" id="date">
+      </div>
+      <div class="form-group">
+        <label for="time">Reservation Time</label>
+        <input type="time" class="form-control" id="time">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center py-4">
+    <div class="container">
+      <p>&copy; 2024 Savant 18. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
